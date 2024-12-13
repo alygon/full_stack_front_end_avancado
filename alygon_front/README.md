@@ -32,20 +32,3 @@ $ npm run dev
 ```
 
 Abra o [http://localhost:1234](http://localhost:1234) no navegador.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -8,6 +8,7 @@ O projeto consiste no desenvolvimento de um dashboard com três páginas em Reac
 
 2) Cadastro de Clientes - Tela com uma lista de clientes em que o cadastro é feito através de chamada à API fake (https://reqres.in/).
 
+O projeto foi prototipado no figma (https://www.figma.com/proto/zb71CczlwwlHX4jgFqzoWG/ALYGON_FRONT?node-id=0-1&t=MmK1fx4FfhbH1AFQ-1).
 
 ## Como executar o front
 

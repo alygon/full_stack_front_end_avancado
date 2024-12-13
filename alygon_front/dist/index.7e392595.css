@@ -1,0 +1,24 @@
+:root {
+  --heading-three-medium-18p-font-family: "Inter", Helvetica;
+  --heading-three-medium-18p-font-size: 18px;
+  --heading-three-medium-18p-font-style: normal;
+  --heading-three-medium-18p-font-weight: 500;
+  --heading-three-medium-18p-letter-spacing: 0px;
+  --heading-three-medium-18p-line-height: normal;
+  --primary-2: #343c6a;
+  --primary-3: #2d60ff;
+  --responsive-device-width: 1200px;
+}
+
+[data-responsive-mode="desktop"] {
+  --responsive-device-width: 1200px;
+}
+
+[data-responsive-mode="mobile"] {
+  --responsive-device-width: 375px;
+}
+
+[data-responsive-mode="tablet"] {
+  --responsive-device-width: 768px;
+}
+/*# sourceMappingURL=index.7e392595.css.map */

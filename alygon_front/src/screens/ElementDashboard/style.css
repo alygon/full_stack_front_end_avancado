@@ -1,0 +1,439 @@
+.element-dashboard {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .element-dashboard .overlap-wrapper {
+    background-color: #ffffff;
+    height: 1024px;
+    width: var(--responsive-device-width);
+  }
+  
+  .element-dashboard .overlap {
+    height: 1024px;
+    position: relative;
+    width: 1198px;
+  }
+  
+  .element-dashboard .overlap-group {
+    height: 748px;
+    left: 314px;
+    position: absolute;
+    top: 131px;
+    width: 776px;
+  }
+  
+  .element-dashboard .atividades-semanais {
+    height: 398px;
+    left: 0;
+    position: absolute;
+    top: 350px;
+    width: 776px;
+  }
+  
+  .element-dashboard .text-wrapper {
+    color: #343c6a;
+    font-family: "Inter", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 319px;
+  }
+  
+  .element-dashboard .grfico {
+    height: 349px;
+    left: 0;
+    position: absolute;
+    top: 49px;
+    width: 774px;
+  }
+  
+  .element-dashboard .estatisticas-de {
+    height: 367px;
+    left: 396px;
+    position: absolute;
+    top: 0;
+    width: 352px;
+  }
+  
+  .element-dashboard .div {
+    color: #343c6a;
+    font-family: "Inter", Helvetica;
+    font-size: 22px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .element-dashboard .img {
+    height: 322px;
+    left: 0;
+    position: absolute;
+    top: 45px;
+    width: 350px;
+  }
+  
+  .element-dashboard .transaes-recentes {
+    height: 282px;
+    left: 314px;
+    position: absolute;
+    top: 143px;
+    width: 352px;
+  }
+  
+  .element-dashboard .transaes {
+    height: 235px;
+    left: 0;
+    position: absolute;
+    top: 47px;
+    width: 350px;
+  }
+  
+  .element-dashboard .overlap-2 {
+    height: 1024px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1198px;
+  }
+  
+  .element-dashboard .barra-de-menu {
+    height: 1024px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 250px;
+  }
+  
+  .element-dashboard .funcionalidades {
+    height: 441px;
+    left: 0;
+    position: absolute;
+    top: 126px;
+    width: 227px;
+  }
+  
+  .element-dashboard .configuraes {
+    height: 42px;
+    left: 46px;
+    position: absolute;
+    top: 525px;
+    width: 183px;
+  }
+  
+  .element-dashboard .text-wrapper-2 {
+    color: #b1b1b1;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 51px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12px;
+    white-space: nowrap;
+    width: 130px;
+  }
+  
+  .element-dashboard .img-2 {
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 25px;
+  }
+  
+  .element-dashboard .servios {
+    height: 42px;
+    left: 46px;
+    position: absolute;
+    top: 470px;
+    width: 183px;
+  }
+  
+  .element-dashboard .emprstimos {
+    height: 42px;
+    left: 46px;
+    position: absolute;
+    top: 415px;
+    width: 183px;
+  }
+  
+  .element-dashboard .text-wrapper-3 {
+    color: #b1b1b1;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 51px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 11px;
+    white-space: nowrap;
+    width: 130px;
+  }
+  
+  .element-dashboard .cartes {
+    height: 42px;
+    left: 46px;
+    position: absolute;
+    top: 359px;
+    width: 183px;
+  }
+  
+  .element-dashboard .investimentos {
+    height: 42px;
+    left: 46px;
+    position: absolute;
+    top: 307px;
+    width: 183px;
+  }
+  
+  .element-dashboard .text-wrapper-4 {
+    color: #b1b1b1;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 51px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 8px;
+    white-space: nowrap;
+    width: 130px;
+  }
+  
+  .element-dashboard .contas {
+    height: 42px;
+    left: 46px;
+    position: absolute;
+    top: 249px;
+    width: 183px;
+  }
+  
+  .element-dashboard .clientes {
+    height: 42px;
+    left: 44px;
+    position: absolute;
+    top: 194px;
+    width: 147px;
+  }
+  
+  .element-dashboard .text-wrapper-5 {
+    color: #343c6a;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 51px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 11px;
+    white-space: nowrap;
+    width: 94px;
+  }
+  
+  .element-dashboard .dashboard {
+    height: 52px;
+    left: 0;
+    position: absolute;
+    top: 126;
+    width: 229px;
+  }
+  
+  .element-dashboard .text-wrapper-6 {
+    color: #343c6a;
+    font-family: var(--heading-three-medium-18p-font-family);
+    font-size: var(--heading-three-medium-18p-font-size);
+    font-style: var(--heading-three-medium-18p-font-style);
+    font-weight: var(--heading-three-medium-18p-font-weight);
+    left: 97px;
+    letter-spacing: var(--heading-three-medium-18p-letter-spacing);
+    line-height: var(--heading-three-medium-18p-line-height);
+    position: absolute;
+    top: 17px;
+    white-space: nowrap;
+    width: 130px;
+  }
+  
+  .element-dashboard .imagem-dashboard {
+    height: 42px;
+    left: 46px;
+    position: absolute;
+    top: 5px;
+    width: 25px;
+  }
+  
+  .element-dashboard .retngulo-de {
+    background-color: var(--primary-3);
+    border-radius: 0px 10px 10px 0px;
+    height: 52px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 6px;
+  }
+  
+  .element-dashboard .retngulo-lateral {
+    background-color: #e6eff5;
+    height: 1024px;
+    left: 249px;
+    position: absolute;
+    top: 0;
+    width: 1px;
+  }
+  
+  .element-dashboard .cabealho {
+    height: 81px;
+    left: 17px;
+    position: absolute;
+    top: 20px;
+    width: 1181px;
+  }
+  
+  .element-dashboard .cabealho-2 {
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1125px;
+  }
+  
+  .element-dashboard .cabealho-direito {
+    height: 60px;
+    left: 254px;
+    position: absolute;
+    top: 6px;
+    width: 871px;
+  }
+  
+  .element-dashboard .perfil {
+    height: 60px;
+    left: 809px;
+    position: absolute;
+    top: 0;
+    width: 60px;
+  }
+  
+  .element-dashboard .notificaes {
+    background-color: #f4f6f9;
+    border-radius: 25px;
+    height: 50px;
+    left: 683px;
+    position: absolute;
+    top: 8px;
+    width: 50px;
+  }
+  
+  .element-dashboard .img-3 {
+    height: 25px;
+    left: 12px;
+    position: absolute;
+    top: 13px;
+    width: 25px;
+  }
+  
+  .element-dashboard .configurao {
+    background-color: #f4f6f9;
+    border-radius: 25px;
+    height: 50px;
+    left: 622px;
+    position: absolute;
+    top: 10px;
+    width: 50px;
+  }
+  
+  .element-dashboard .pesquisa {
+    height: 50px;
+    left: 324px;
+    position: absolute;
+    top: 8px;
+    width: 284px;
+  }
+  
+  .element-dashboard .overlap-group-2 {
+    background-color: #f4f6f9;
+    border-radius: 40px;
+    height: 50px;
+    position: relative;
+    width: 282px;
+  }
+  
+  .element-dashboard .cone-lupa {
+    height: 25px;
+    left: 20px;
+    position: absolute;
+    top: 13px;
+    width: 25px;
+  }
+  
+  .element-dashboard .texto-caixa-de {
+    color: #8ba3cb;
+    font-family: "Inter", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 75px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    width: 159px;
+  }
+  
+  .element-dashboard .text-wrapper-7 {
+    color: var(--primary-2);
+    font-family: "Inter", Helvetica;
+    font-size: 20px;
+    font-weight: 300;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 23px;
+    width: 213px;
+  }
+  
+  .element-dashboard .nome-empresa {
+    color: var(--primary-2);
+    font-family: "Inter", Helvetica;
+    font-size: 25px;
+    font-weight: 800;
+    left: 98px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 28px;
+    white-space: nowrap;
+  }
+  
+  .element-dashboard .imagem-pindaba {
+    background-image: url(https://c.animaapp.com/9s25AwX1/img/imagem-pinda-ba@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 81px;
+  }
+  
+  .element-dashboard .linha-cabealho {
+    background-color: #e5eef4;
+    height: 1px;
+    left: 230px;
+    position: absolute;
+    top: 80px;
+    width: 951px;
+  }
+
+   

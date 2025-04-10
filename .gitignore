@@ -1,0 +1,26 @@
+# Ignore tudo dentro de node_modules e cache do Parcel
+alygon_front/node_modules/
+alygon_front/.parcel-cache/
+
+# Logs
+alygon_front/npm-debug.log*
+alygon_front/yarn-debug.log*
+alygon_front/yarn-error.log*
+
+# Diretórios de build (caso use)
+alygon_front/dist/
+alygon_front/build/
+
+# Arquivos de ambiente (se tiver)
+alygon_front/.env
+alygon_front/.env.local
+alygon_front/.env.*.local
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

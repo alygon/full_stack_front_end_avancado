@@ -27243,6 +27243,8 @@ var _table = require("./Table");
 var _tableDefault = parcelHelpers.interopDefault(_table);
 var _conteudo = require("./Conteudo");
 var _conteudoDefault = parcelHelpers.interopDefault(_conteudo);
+var _service = require("./Service");
+var _serviceDefault = parcelHelpers.interopDefault(_service);
 const ElementDashboard = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "element-dashboard",
@@ -27254,7 +27256,7 @@ const ElementDashboard = ()=>{
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuDefault.default), {}, void 0, false, {
                             fileName: "src/screens/ElementDashboard/ElementDashboard.jsx",
-                            lineNumber: 16,
+                            lineNumber: 17,
                             columnNumber: 13
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
@@ -27263,51 +27265,63 @@ const ElementDashboard = ()=>{
                                     path: "/dashboard",
                                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _conteudoDefault.default), {}, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/ElementDashboard.jsx",
-                                        lineNumber: 18,
+                                        lineNumber: 19,
                                         columnNumber: 51
                                     }, void 0)
                                 }, void 0, false, {
                                     fileName: "src/screens/ElementDashboard/ElementDashboard.jsx",
-                                    lineNumber: 18,
+                                    lineNumber: 19,
                                     columnNumber: 17
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                                     path: "/clientes",
                                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _tableDefault.default), {}, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/ElementDashboard.jsx",
-                                        lineNumber: 19,
+                                        lineNumber: 20,
                                         columnNumber: 50
                                     }, void 0)
                                 }, void 0, false, {
                                     fileName: "src/screens/ElementDashboard/ElementDashboard.jsx",
-                                    lineNumber: 19,
+                                    lineNumber: 20,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                                    path: "/servicos",
+                                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _serviceDefault.default), {}, void 0, false, {
+                                        fileName: "src/screens/ElementDashboard/ElementDashboard.jsx",
+                                        lineNumber: 21,
+                                        columnNumber: 50
+                                    }, void 0)
+                                }, void 0, false, {
+                                    fileName: "src/screens/ElementDashboard/ElementDashboard.jsx",
+                                    lineNumber: 21,
                                     columnNumber: 17
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/ElementDashboard/ElementDashboard.jsx",
-                            lineNumber: 17,
+                            lineNumber: 18,
                             columnNumber: 15
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/ElementDashboard/ElementDashboard.jsx",
-                    lineNumber: 15,
+                    lineNumber: 16,
                     columnNumber: 13
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/screens/ElementDashboard/ElementDashboard.jsx",
-                lineNumber: 14,
+                lineNumber: 15,
                 columnNumber: 13
             }, undefined)
         }, void 0, false, {
             fileName: "src/screens/ElementDashboard/ElementDashboard.jsx",
-            lineNumber: 13,
+            lineNumber: 14,
             columnNumber: 9
         }, undefined)
     }, void 0, false, {
         fileName: "src/screens/ElementDashboard/ElementDashboard.jsx",
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 5
     }, undefined);
 };
@@ -27320,7 +27334,7 @@ $RefreshReg$(_c, "ElementDashboard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","./style.css":"9zoNp","./Menu":"dAMU4","./Table":"kARaU","./Conteudo":"cK9EA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9xmpe":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","./style.css":"9zoNp","./Menu":"dAMU4","./Table":"kARaU","./Conteudo":"cK9EA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Service":"64meR"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.28.0
  *
@@ -34579,7 +34593,7 @@ function Menu() {
                 className: "configuraes",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "text-wrapper-2",
+                        className: "text-wrapper-3",
                         children: "Configura\xe7\xf5es"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
@@ -34604,9 +34618,16 @@ function Menu() {
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "servios",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "text-wrapper-2",
-                        children: "Servi\xe7os"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/servicos",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-wrapper-2",
+                            children: "Servi\xe7os"
+                        }, void 0, false, {
+                            fileName: "src/screens/ElementDashboard/Menu.jsx",
+                            lineNumber: 21,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
                         lineNumber: 20,
@@ -34614,11 +34635,11 @@ function Menu() {
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         className: "img-2",
-                        alt: "Imagem servios",
+                        alt: "Imagem servi\xe7os",
                         src: "https://c.animaapp.com/9s25AwX1/img/imagem-servi-os@2x.png"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 21,
+                        lineNumber: 23,
                         columnNumber: 13
                     }, this)
                 ]
@@ -34635,7 +34656,7 @@ function Menu() {
                         children: "Empr\xe9stimos"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 28,
+                        lineNumber: 30,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34644,24 +34665,24 @@ function Menu() {
                         src: "https://c.animaapp.com/9s25AwX1/img/imagem-emprestimos@2x.png"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 29,
+                        lineNumber: 31,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/ElementDashboard/Menu.jsx",
-                lineNumber: 27,
+                lineNumber: 29,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "cartes",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "text-wrapper-2",
+                        className: "text-wrapper-3",
                         children: "Cart\xf5es"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 36,
+                        lineNumber: 38,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34670,13 +34691,13 @@ function Menu() {
                         src: "https://c.animaapp.com/9s25AwX1/img/imagem-cart-es@2x.png"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 37,
+                        lineNumber: 39,
                         columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/ElementDashboard/Menu.jsx",
-                lineNumber: 35,
+                lineNumber: 37,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34688,7 +34709,7 @@ function Menu() {
                         src: "https://c.animaapp.com/9s25AwX1/img/imagem-invest@2x.png"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 44,
+                        lineNumber: 46,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34696,13 +34717,13 @@ function Menu() {
                         children: "Investimentos"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 48,
+                        lineNumber: 50,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/ElementDashboard/Menu.jsx",
-                lineNumber: 43,
+                lineNumber: 45,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34713,7 +34734,7 @@ function Menu() {
                         children: "Contas"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 52,
+                        lineNumber: 54,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34722,13 +34743,13 @@ function Menu() {
                         src: "https://c.animaapp.com/9s25AwX1/img/imagem-contas@2x.png"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 53,
+                        lineNumber: 55,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/ElementDashboard/Menu.jsx",
-                lineNumber: 51,
+                lineNumber: 53,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34741,12 +34762,12 @@ function Menu() {
                             children: "Clientes"
                         }, void 0, false, {
                             fileName: "src/screens/ElementDashboard/Menu.jsx",
-                            lineNumber: 61,
+                            lineNumber: 63,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 60,
+                        lineNumber: 62,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34755,13 +34776,13 @@ function Menu() {
                         src: "https://c.animaapp.com/9s25AwX1/img/imagem-clientes@2x.png"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 63,
+                        lineNumber: 65,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/ElementDashboard/Menu.jsx",
-                lineNumber: 59,
+                lineNumber: 61,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34774,12 +34795,12 @@ function Menu() {
                             children: "Dashboard"
                         }, void 0, false, {
                             fileName: "src/screens/ElementDashboard/Menu.jsx",
-                            lineNumber: 71,
+                            lineNumber: 73,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 70,
+                        lineNumber: 72,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -34788,20 +34809,20 @@ function Menu() {
                         src: "https://c.animaapp.com/9s25AwX1/img/imagem-dashboard@2x.png"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 73,
+                        lineNumber: 75,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/ElementDashboard/Menu.jsx",
-                lineNumber: 69,
+                lineNumber: 71,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "retngulo-lateral"
             }, void 0, false, {
                 fileName: "src/screens/ElementDashboard/Menu.jsx",
-                lineNumber: 79,
+                lineNumber: 81,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34819,7 +34840,7 @@ function Menu() {
                                         src: "https://c.animaapp.com/9s25AwX1/img/perfil@2x.png"
                                     }, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                        lineNumber: 87,
+                                        lineNumber: 89,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34830,12 +34851,12 @@ function Menu() {
                                             src: "https://c.animaapp.com/9s25AwX1/img/imagem-note.svg"
                                         }, void 0, false, {
                                             fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                            lineNumber: 94,
+                                            lineNumber: 96,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                        lineNumber: 93,
+                                        lineNumber: 95,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34846,12 +34867,12 @@ function Menu() {
                                             src: "https://c.animaapp.com/9s25AwX1/img/imagem-config.svg"
                                         }, void 0, false, {
                                             fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                            lineNumber: 101,
+                                            lineNumber: 103,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                        lineNumber: 100,
+                                        lineNumber: 102,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34865,7 +34886,7 @@ function Menu() {
                                                     src: "https://c.animaapp.com/9s25AwX1/img/-cone-lupa.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 111,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34873,18 +34894,18 @@ function Menu() {
                                                     children: "Busca Avan\xe7ada"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 115,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                            lineNumber: 108,
+                                            lineNumber: 110,
                                             columnNumber: 29
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                        lineNumber: 107,
+                                        lineNumber: 109,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34892,13 +34913,13 @@ function Menu() {
                                         children: "Dashboard"
                                     }, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                        lineNumber: 116,
+                                        lineNumber: 118,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                lineNumber: 85,
+                                lineNumber: 87,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34906,33 +34927,33 @@ function Menu() {
                                 children: "Alygon"
                             }, void 0, false, {
                                 fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                lineNumber: 119,
+                                lineNumber: 121,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "imagem-pindaba"
                             }, void 0, false, {
                                 fileName: "src/screens/ElementDashboard/Menu.jsx",
-                                lineNumber: 120,
+                                lineNumber: 122,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 83,
+                        lineNumber: 85,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "linha-cabealho"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Menu.jsx",
-                        lineNumber: 123,
+                        lineNumber: 125,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/ElementDashboard/Menu.jsx",
-                lineNumber: 81,
+                lineNumber: 83,
                 columnNumber: 13
             }, this)
         ]
@@ -35107,21 +35128,37 @@ const Table = ()=>{
     const [erro, setErro] = (0, _react.useState)(null);
     const [cliente, setCliente] = (0, _react.useState)([
         {
-            id: 001,
+            id: 1,
             nome: "Alysson",
-            profissao: "Analista de Sistemas"
+            login: "alygon@gmail.com"
         },
         {
-            id: 002,
+            id: 2,
             nome: "Jo\xe3o",
-            profissao: "Analista de Testes"
+            login: "joao@gmail.com"
         },
         {
-            id: 003,
+            id: 3,
             nome: "Maria",
-            profissao: "Analista de Recursos Humanos"
+            login: "maria@gmail.com"
         }
     ]);
+    const getList = async ()=>{
+        try {
+            const response = await fetch("http://127.0.0.1:5000/usuarios");
+            const data = await response.json();
+            if (data.usuarios) setCliente(data.usuarios);
+        } catch (error) {
+            console.error("Erro ao buscar dados:", error);
+        }
+    };
+    (0, _react.useEffect)(()=>{
+        getList();
+        const interval = setInterval(()=>{
+            getList();
+        }, 5000);
+        return ()=>clearInterval(interval);
+    }, []);
     const mudancaCampoPesquisa = (nomeCliente)=>{
         setPesquisa(nomeCliente.target.value);
     };
@@ -35166,21 +35203,22 @@ const Table = ()=>{
                         onChange: mudancaCampoPesquisa
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                        lineNumber: 54,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                         onClick: adicionaCliente,
+                        disabled: true,
                         children: "Cadastrar"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                        lineNumber: 60,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/ElementDashboard/Table.jsx",
-                lineNumber: 53,
+                lineNumber: 76,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
@@ -35193,32 +35231,32 @@ const Table = ()=>{
                                     children: "ID"
                                 }, void 0, false, {
                                     fileName: "src/screens/ElementDashboard/Table.jsx",
-                                    lineNumber: 65,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                     children: "Nome"
                                 }, void 0, false, {
                                     fileName: "src/screens/ElementDashboard/Table.jsx",
-                                    lineNumber: 66,
+                                    lineNumber: 89,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                    children: "Profiss\xe3o"
+                                    children: "Login"
                                 }, void 0, false, {
                                     fileName: "src/screens/ElementDashboard/Table.jsx",
-                                    lineNumber: 67,
+                                    lineNumber: 90,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/ElementDashboard/Table.jsx",
-                            lineNumber: 64,
+                            lineNumber: 87,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                        lineNumber: 63,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
@@ -35228,48 +35266,48 @@ const Table = ()=>{
                                         children: row.id
                                     }, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                                        lineNumber: 73,
+                                        lineNumber: 96,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                         children: row.nome
                                     }, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                                        lineNumber: 74,
+                                        lineNumber: 97,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                        children: row.profissao
+                                        children: row.login
                                     }, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                                        lineNumber: 75,
+                                        lineNumber: 98,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, row.id, true, {
                                 fileName: "src/screens/ElementDashboard/Table.jsx",
-                                lineNumber: 72,
+                                lineNumber: 95,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                        lineNumber: 70,
+                        lineNumber: 93,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/ElementDashboard/Table.jsx",
-                lineNumber: 62,
+                lineNumber: 85,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/screens/ElementDashboard/Table.jsx",
-        lineNumber: 52,
+        lineNumber: 75,
         columnNumber: 5
     }, undefined);
 };
-_s(Table, "M0U58Osmh8XASWOQhC3fA9y8e4U=");
+_s(Table, "ko4U0MAHjeBePPGdz5MsHYBP1VA=");
 _c = Table;
 exports.default = Table;
 var _c;
@@ -40166,6 +40204,195 @@ $RefreshReg$(_c, "Conteudo");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./style.css":"9zoNp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9zoNp":[function() {},{}]},["gjUm6","1xC6H","d8Dch"], "d8Dch", "parcelRequire472b")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./style.css":"9zoNp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9zoNp":[function() {},{}],"64meR":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$68f8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$68f8.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _tableCss = require("./table.css");
+var _s = $RefreshSig$();
+const Service = ()=>{
+    _s();
+    const [cotacao, setCotacao] = (0, _react.useState)([]);
+    const [pesquisa, setPesquisa] = (0, _react.useState)("");
+    const [loading, setLoading] = (0, _react.useState)(false);
+    const [mensagem, setMensagem] = (0, _react.useState)("");
+    const formatarData = (data)=>{
+        const [ano, mes, dia] = data.split("-");
+        return `${mes}-${dia}-${ano}`; // MM-DD-YYYY
+    };
+    const getList = async ()=>{
+        if (!pesquisa) {
+            setMensagem("Por favor, selecione uma data.");
+            setCotacao([]);
+            return;
+        }
+        setLoading(true);
+        setMensagem("");
+        setCotacao([]);
+        const dataFormatada = formatarData(pesquisa);
+        try {
+            const response = await fetch(`https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='${dataFormatada}'&$top=100&$format=json`);
+            const result = await response.json();
+            if (result.value && result.value.length > 0) setCotacao(result.value);
+            else setMensagem("Nenhuma cota\xe7\xe3o encontrada para a data selecionada.");
+        } catch (error) {
+            console.error("Erro ao buscar dados:", error);
+            setMensagem("Erro ao buscar dados. Tente novamente mais tarde.");
+        } finally{
+            setLoading(false);
+        }
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "table-container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "table-controls",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        className: "input-pesquisa",
+                        type: "date",
+                        placeholder: "Pesquise por data",
+                        value: pesquisa,
+                        onChange: (e)=>setPesquisa(e.target.value)
+                    }, void 0, false, {
+                        fileName: "src/screens/ElementDashboard/Service.jsx",
+                        lineNumber: 52,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: getList,
+                        children: "Buscar"
+                    }, void 0, false, {
+                        fileName: "src/screens/ElementDashboard/Service.jsx",
+                        lineNumber: 59,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/screens/ElementDashboard/Service.jsx",
+                lineNumber: 51,
+                columnNumber: 9
+            }, undefined),
+            loading && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "alerta",
+                children: "Carregando dados..."
+            }, void 0, false, {
+                fileName: "src/screens/ElementDashboard/Service.jsx",
+                lineNumber: 62,
+                columnNumber: 21
+            }, undefined),
+            mensagem && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "alerta",
+                children: mensagem
+            }, void 0, false, {
+                fileName: "src/screens/ElementDashboard/Service.jsx",
+                lineNumber: 63,
+                columnNumber: 22
+            }, undefined),
+            !loading && cotacao.length > 0 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                className: "styled-table",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "Cota\xe7\xe3o de Compra"
+                                }, void 0, false, {
+                                    fileName: "src/screens/ElementDashboard/Service.jsx",
+                                    lineNumber: 70,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "Cota\xe7\xe3o de Venda"
+                                }, void 0, false, {
+                                    fileName: "src/screens/ElementDashboard/Service.jsx",
+                                    lineNumber: 71,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "Data e hora da Cota\xe7\xe3o"
+                                }, void 0, false, {
+                                    fileName: "src/screens/ElementDashboard/Service.jsx",
+                                    lineNumber: 72,
+                                    columnNumber: 21
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/ElementDashboard/Service.jsx",
+                            lineNumber: 69,
+                            columnNumber: 21
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/screens/ElementDashboard/Service.jsx",
+                        lineNumber: 68,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
+                        children: cotacao.map((row, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                        children: row.cotacaoCompra
+                                    }, void 0, false, {
+                                        fileName: "src/screens/ElementDashboard/Service.jsx",
+                                        lineNumber: 78,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                        children: row.cotacaoVenda
+                                    }, void 0, false, {
+                                        fileName: "src/screens/ElementDashboard/Service.jsx",
+                                        lineNumber: 79,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                        children: row.dataHoraCotacao
+                                    }, void 0, false, {
+                                        fileName: "src/screens/ElementDashboard/Service.jsx",
+                                        lineNumber: 80,
+                                        columnNumber: 29
+                                    }, undefined)
+                                ]
+                            }, index, true, {
+                                fileName: "src/screens/ElementDashboard/Service.jsx",
+                                lineNumber: 77,
+                                columnNumber: 25
+                            }, undefined))
+                    }, void 0, false, {
+                        fileName: "src/screens/ElementDashboard/Service.jsx",
+                        lineNumber: 75,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/screens/ElementDashboard/Service.jsx",
+                lineNumber: 67,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/screens/ElementDashboard/Service.jsx",
+        lineNumber: 49,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Service, "+ppG6PsQnBSV9Btmc+D0euxBwSw=");
+_c = Service;
+exports.default = Service;
+var _c;
+$RefreshReg$(_c, "Service");
+
+  $parcel$ReactRefreshHelpers$68f8.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./table.css":"5iKpG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5iKpG":[function() {},{}]},["gjUm6","1xC6H","d8Dch"], "d8Dch", "parcelRequire472b")
 
 //# sourceMappingURL=index.b4b6dfad.js.map

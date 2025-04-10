@@ -9,7 +9,7 @@ export default function Menu () {
         <>
         
         <div className="configuraes">
-            <div className="text-wrapper-2">Configurações</div>
+            <div className="text-wrapper-3">Configurações</div>
             <img
                 className="img-2"
                 alt="Imagem configuraes"
@@ -17,10 +17,12 @@ export default function Menu () {
         </div>
         
         <div className="servios">
+            <Link to = "/servicos">  
             <div className="text-wrapper-2">Serviços</div>
+            </Link>
             <img
                 className="img-2"
-                alt="Imagem servios"
+                alt="Imagem serviços"
                 src="https://c.animaapp.com/9s25AwX1/img/imagem-servi-os@2x.png" />
         </div>
 
@@ -33,7 +35,7 @@ export default function Menu () {
         </div>
             
         <div className="cartes">
-            <div className="text-wrapper-2">Cartões</div>
+            <div className="text-wrapper-3">Cartões</div>
             <img
                 className="img-2"
                 alt="Imagem cartes"

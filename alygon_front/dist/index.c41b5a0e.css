@@ -153,7 +153,7 @@ a {
 }
 
 .element-dashboard .text-wrapper-2 {
-  color: #b1b1b1;
+  color: #343c6a;
   letter-spacing: 0;
   white-space: nowrap;
   width: 130px;
@@ -524,5 +524,26 @@ a {
 
 .styled-table tr:hover {
   background-color: #ddd;
+}
+
+p.alerta {
+  color: #fff;
+  background-color: #343c6a;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 10px 15px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.input-pesquisa {
+  font-family: Arial, sans-serif;
+}
+
+button:disabled {
+  color: #666;
+  cursor: not-allowed;
+  opacity: .7;
+  background-color: #ccc;
 }
 /*# sourceMappingURL=index.c41b5a0e.css.map */

@@ -27334,7 +27334,7 @@ $RefreshReg$(_c, "ElementDashboard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","./style.css":"9zoNp","./Menu":"dAMU4","./Table":"kARaU","./Conteudo":"cK9EA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Service":"64meR"}],"9xmpe":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","./style.css":"9zoNp","./Menu":"dAMU4","./Table":"kARaU","./Conteudo":"cK9EA","./Service":"64meR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.28.0
  *
@@ -35126,23 +35126,7 @@ const Table = ()=>{
     const [pesquisa, setPesquisa] = (0, _react.useState)("");
     const [resCliente, setResCliente] = (0, _react.useState)(null);
     const [erro, setErro] = (0, _react.useState)(null);
-    const [cliente, setCliente] = (0, _react.useState)([
-        {
-            id: 1,
-            nome: "Alysson",
-            login: "alygon@gmail.com"
-        },
-        {
-            id: 2,
-            nome: "Jo\xe3o",
-            login: "joao@gmail.com"
-        },
-        {
-            id: 3,
-            nome: "Maria",
-            login: "maria@gmail.com"
-        }
-    ]);
+    const [cliente, setCliente] = (0, _react.useState)([]);
     const getList = async ()=>{
         try {
             const response = await fetch("http://127.0.0.1:5000/usuarios");
@@ -35203,7 +35187,7 @@ const Table = ()=>{
                         onChange: mudancaCampoPesquisa
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                        lineNumber: 77,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -35212,13 +35196,13 @@ const Table = ()=>{
                         children: "Cadastrar"
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                        lineNumber: 83,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/ElementDashboard/Table.jsx",
-                lineNumber: 76,
+                lineNumber: 71,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
@@ -35231,32 +35215,32 @@ const Table = ()=>{
                                     children: "ID"
                                 }, void 0, false, {
                                     fileName: "src/screens/ElementDashboard/Table.jsx",
-                                    lineNumber: 88,
+                                    lineNumber: 83,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                     children: "Nome"
                                 }, void 0, false, {
                                     fileName: "src/screens/ElementDashboard/Table.jsx",
-                                    lineNumber: 89,
+                                    lineNumber: 84,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                     children: "Login"
                                 }, void 0, false, {
                                     fileName: "src/screens/ElementDashboard/Table.jsx",
-                                    lineNumber: 90,
+                                    lineNumber: 85,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/ElementDashboard/Table.jsx",
-                            lineNumber: 87,
+                            lineNumber: 82,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                        lineNumber: 86,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
@@ -35266,48 +35250,48 @@ const Table = ()=>{
                                         children: row.id
                                     }, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                                        lineNumber: 96,
+                                        lineNumber: 91,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                         children: row.nome
                                     }, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                                        lineNumber: 97,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                         children: row.login
                                     }, void 0, false, {
                                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                                        lineNumber: 98,
+                                        lineNumber: 93,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, row.id, true, {
                                 fileName: "src/screens/ElementDashboard/Table.jsx",
-                                lineNumber: 95,
+                                lineNumber: 90,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/screens/ElementDashboard/Table.jsx",
-                        lineNumber: 93,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/ElementDashboard/Table.jsx",
-                lineNumber: 85,
+                lineNumber: 80,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/screens/ElementDashboard/Table.jsx",
-        lineNumber: 75,
+        lineNumber: 70,
         columnNumber: 5
     }, undefined);
 };
-_s(Table, "ko4U0MAHjeBePPGdz5MsHYBP1VA=");
+_s(Table, "5Lu23bQCT965Ee7tQzzWKOTWu9Q=");
 _c = Table;
 exports.default = Table;
 var _c;

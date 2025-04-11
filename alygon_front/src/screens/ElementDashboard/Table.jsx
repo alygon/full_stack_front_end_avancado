@@ -8,12 +8,7 @@ const Table = () => {
   const [resCliente, setResCliente] = useState(null);
   const [erro, setErro] = useState(null);
     
-  const [cliente, setCliente] = useState([
-    { id: 1, nome: "Alysson", login: "alygon@gmail.com"},
-    { id: 2, nome: "João", login: "joao@gmail.com"},
-    { id: 3, nome: "Maria", login: "maria@gmail.com"},
-  ]);
-  
+  const [cliente, setCliente] = useState([]);  
 
   const getList = async () => {
     try {
